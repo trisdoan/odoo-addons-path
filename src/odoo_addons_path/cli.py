@@ -6,6 +6,8 @@ import typer
 
 from .main import get_addons_path
 
+print("test")
+
 
 def _parse_paths(values: list[str] | None) -> list[Path]:
     if not values:
